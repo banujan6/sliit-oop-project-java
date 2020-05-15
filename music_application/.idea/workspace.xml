@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a3b6580-6ff8-457d-a1e1-f8c6d40b8e0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/config/APIDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/config/APIDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/AlbumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/PlayListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/PlayListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/SongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/SongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/dto/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/dto/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/dto/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/dto/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/exceptions/MusicStoreException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/exceptions/MusicStoreException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/model/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/model/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/reopository/AlbumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/reopository/AlbumRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/service/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/service/user/impl/SongServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/service/user/impl/SongServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sliit/music/service/user/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sliit/music/service/user/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bZMnedzUmlfbz6fDjjuFefUfCQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MusicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="music" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sliit.music.MusicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a3b6580-6ff8-457d-a1e1-f8c6d40b8e0b" name="Default Changelist" comment="" />
+      <created>1588835330721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588835330721</updated>
+      <workItem from="1588835332671" duration="3036000" />
+      <workItem from="1588921612107" duration="1532000" />
+      <workItem from="1588950999468" duration="4642000" />
+      <workItem from="1589051456374" duration="11358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Assign_Data_Sources" timestamp="1589040684035">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Assign_Data_Sources/0.0.1440.900@0.0.1440.900" timestamp="1589040684035" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1589529219922">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589529219922" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589217677232" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1589529219919">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589529219919" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1589217677228" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1589529219918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589529219918" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1589217677226" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1589529219921">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589529219921" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1589217677230" />
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1589529219926">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589529219926" />
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1589217677237" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center" timestamp="1589529219924">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589529219924" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1589217677235" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left" timestamp="1589529219923">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589529219923" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1589217677233" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right" timestamp="1589529219925">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589529219925" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1589217677236" />
+    <state x="229" y="76" key="SettingsEditor" timestamp="1588950969537">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="229" y="76" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1588950969537" />
+    <state x="581" y="70" width="782" height="729" key="find.popup" timestamp="1589529204061">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="581" y="70" width="782" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1589529204061" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589529198111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589529198111" />
+  </component>
+</project>

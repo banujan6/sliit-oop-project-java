@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="assets/images/logo-1-122x122.png" type="image/x-icon">
+    <meta name="description" content="">
+
+    <title>
+
+        Dashboard &middot;
+
+    </title>
+
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+    <link rel="stylesheet" href="assets/tether/tether.min.css">
+    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link href="assets/theme/css/toolkit-inverse.css" rel="stylesheet">
+    <link href="assets/theme/css/application.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+
+
+
+    <style>
+        /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+        /* this chunk of css is not part of the toolkit :) */
+        body {
+            width: 1px;
+            min-width: 100%;
+            *width: 100%;
+        }
+    </style>
+</head>
+
+
+<body>
+<section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
+
+
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+
+                         <img src="assets/images/logo-1-122x122.png" alt="Mobirise" title="" style="height: 3.8rem;">
+
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-secondary display-7" href="index.html">Beatz</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true" style="font-size: 16px;">
+                <li class="nav-item">
+                    <a class="nav-link link text-white" href="albums.html">
+                        Albums
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link text-white" href="artists.html">
+                        Artists
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link text-white" href="dashboard.html" id="link_dashboard">
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item"><a class="nav-link link text-white" href="login.html" id="link_login"><span class="mbrib-login mbr-iconfont mbr-iconfont-btn"></span>Login&nbsp;</a></li>
+            </ul>
+            <div class="navbar-buttons mbr-section-btn" id="link_register">
+                <a class="btn btn-sm btn-secondary-outline display-4" href="register.html">
+                    <span class="mbri-paper-plane mbr-iconfont mbr-iconfont-btn"></span>Register
+                </a>
+            </div>
+            <div class="navbar-buttons mbr-section-btn" id="link_logout">
+                <a class="btn btn-sm btn-secondary-outline display-4" href="#">
+                    <span class="mbri-paper-plane mbr-iconfont mbr-iconfont-btn"></span>Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <nav class="sidebar-nav">
+                <div class="sidebar-header">
+                    <button class="nav-toggler nav-toggler-md sidebar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggleable-md">
+                        <span class="sr-only">Toggle nav</span>
+                    </button>
+                </div>
+
+                <div class="collapse nav-toggleable-md" id="nav-toggleable-md">
+                    <ul class="nav nav-pills nav-stacked flex-column">
+                        <li class="nav-header">Dashboard</li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-tab="user_section">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-tab="artist_section">Artists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-tab="album_section">Albums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-tab="song_section">Songs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-tab="playlist_section">Playlists</a>
+                        </li>
+                    </ul>
+                    <hr class="visible-xs mt-3">
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-9 content">
+
+
+            <div id="user_section" class="tab-section">
+                <button class="btn btn-success" id="btn_new_user">New User</button>
+                <table class="w-100 mt-4">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="users_table">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="artist_section" class="tab-section" style="display: none">
+                <button class="btn btn-success" id="btn_new_artist">New Artist</button>
+                <table class="w-100 mt-4">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="artists_table">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="album_section" class="tab-section" style="display: none">
+                <div class="row" id="album_content"></div>
+            </div>
+
+            <div id="song_section" class="tab-section" style="display: none">
+                <button class="btn btn-success" id="btn_new_song">New Song</button>
+                <table class="w-100 mt-4">
+                    <thead>
+                    <tr>
+                        <th>Song</th>
+                        <th>Genre</th>
+                        <th>Artists</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody id="songs_table">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="playlist_section" class="tab-section" style="display: none">
+
+                <button class="btn btn-success" id="btn_new_playlist">New Playlist</button><br><br>
+
+                <div id="playlist_content">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <div class="modal" tabindex="-1" role="dialog" id="model_user_new">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form onsubmit="return createUser()" id="form_user_create">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create New User</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" style="font-family: roboto,serif" name="name" placeholder="Enter the name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" style="font-family: roboto,serif" name="email" placeholder="Enter the email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" style="font-family: roboto,serif" name="password" placeholder="Enter the password" required>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---------- Artist Create -------------->
+    <div class="modal" tabindex="-1" role="dialog" id="model_artist_new">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form onsubmit="return createArtist()" id="form_artist_create">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Create New Artist</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" style="font-family: roboto,serif" name="name" placeholder="Enter the name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" style="font-family: roboto,serif" name="email" placeholder="Enter the email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" name="password">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---------- Song Create -------------->
+    <div class="modal" tabindex="-1" role="dialog" id="model_song_new">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form onsubmit="return createSong()" id="form_song_create">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Add New Song</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" style="font-family: roboto,serif" name="name" placeholder="Enter the name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>File</label>
+                            <input type="file" class="form-control" style="font-family: roboto,serif" name="file" id="songFile" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Artists</label>
+                            <select class="form-control" style="font-family: roboto,serif" name="artists" id="artistsOptions" multiple required>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Genre</label>
+                            <select class="form-control" style="font-family: roboto,serif" name="genre" required>
+                                <option>POP</option>
+                                <option>Disco</option>
+                                <option>HipHop</option>
+                                <option>Country</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---------- Playlist Create -------------->
+    <div class="modal" tabindex="-1" role="dialog" id="model_playlist_new">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form onsubmit="return createPlaylist()" id="form_playlist_create">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Create New Playlist</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" style="font-family: roboto,serif" name="name" placeholder="Enter the name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Songs</label>
+                            <select class="form-control" style="font-family: roboto,serif" name="songSet" id="songsOptions" multiple required>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---------- Album Create -------------->
+    <div class="modal" tabindex="-1" role="dialog" id="model_album_new">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form onsubmit="return createAlbum()" id="form_album_create">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Create New Album</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" style="font-family: roboto,serif" name="name" placeholder="Enter the name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Songs</label>
+                            <select class="form-control" style="font-family: roboto,serif" name="songs" id="songsOptions2" multiple required>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="assets/theme/js/jquery.min.js"></script>
+<script src="assets/theme/js/tether.min.js"></script>
+<script src="assets/theme/js/chart.js"></script>
+<script src="assets/theme/js/tablesorter.min.js"></script>
+<script src="assets/theme/js/toolkit.js"></script>
+<script src="assets/theme/js/application.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+<script src="assets/dropdown/js/nav-dropdown.js"></script>
+<script src="assets/dropdown/js/navbar-dropdown.js"></script>
+<script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+<script src="assets/parallax/jarallax.min.js"></script>
+<script src="assets/tether/tether.min.js"></script>
+<script src="assets/theme/js/script.js"></script>
+<script src="assets/js/auth.js"></script>
+
+<script>
+
+    var userList;
+    var songList;
+    var user = getUserInfo();
+
+    $('.nav-link').click(function(){
+
+        $('.active').removeClass('active');
+        $(this).addClass('active');
+
+        $('.tab-section').slideUp('fast');
+        $('#'+$(this).attr('data-tab')).slideDown('fast');
+
+    });
+
+    function loadUsers() {
+        $('#users_table').html('');
+        $.ajax({
+            url: baseApiUrl + '/users',
+            method: 'GET'
+        }).success(res => {
+            userList = res.data;
+            res.data.forEach(user => {
+                if ( user.role === 'user' ) {
+                    $('#users_table').append(
+                        `
+                        <tr>
+                            <td>${user.name}</td>
+                            <td>${user.email}</td>
+                            <td><a href="#" style="color:red" onclick="deleteUser(${user.id})">Delete</a></td>
+                        </tr>
+                    `
+                    );
+                }
+
+                if ( user.role === 'artist' ) {
+                    $('#artists_table').append(
+                        `
+                        <tr>
+                            <td>${user.name}</td>
+                            <td><a href="#" style="color:red" onclick="deleteUser(${user.id})">Delete</a></td>
+                        </tr>
+                    `
+                    );
+                }
+            });
+
+            renderUserData();
+        })
+
+    }
+
+    function createUser() {
+
+        let data = {};
+        $('#form_user_create').serializeArray().forEach(obj => {
+           data[obj.name] = obj.value;
+        });
+
+        data['role'] = 'user';
+
+        $.ajax({
+            url: baseApiUrl + '/user',
+            method: 'POST',
+            dataType: 'JSON',
+            headers: {
+                'Accept': 'Application/Json',
+                'Content-Type': 'Application/Json'
+            },
+            data: JSON.stringify(data)
+        }).success(function (res) {
+            loadUsers();
+        }).error(function (err) {
+            alert("Unable to create user. Please check given details are correct!");
+        }).complete(()=> {
+            $('#model_user_new').modal('hide');
+            $('#form_user_create').reset();
+        });
+
+        return false;
+    }
+
+    function createArtist() {
+
+        let data = {};
+        $('#form_artist_create').serializeArray().forEach(obj => {
+            data[obj.name] = obj.value;
+        });
+
+        data['role'] = 'artist';
+
+        $.ajax({
+            url: baseApiUrl + '/user',
+            method: 'POST',
+            dataType: 'JSON',
+            headers: {
+                'Accept': 'Application/Json',
+                'Content-Type': 'Application/Json'
+            },
+            data: JSON.stringify(data)
+        }).success(function (res) {
+            loadUsers();
+        }).error(function (err) {
+            alert("Unable to create user. Please check given details are correct!");
+        }).complete(()=> {
+            $('#model_artist_new').modal('hide');
+            $('#form_artist_create').reset();
+        });
+
+        return false;
+    }
+
+    function createSong() {
+
+        let data = {
+            name: null,
+            genre: null,
+            user: []
+        };
+
+        $('#form_song_create').serializeArray().forEach(obj => {
+            if ( obj.name === 'artists' ) {
+                data.user.push({ id: parseInt(obj.value)});
+            } else {
+                data[obj.name] = obj.value;
+            }
+        });
+
+        let file = new FormData();
+        file.append('file',$('#songFile')[0]['files'][0]);
+
+        $.ajax({
+            type: 'post',
+            url: baseApiUrl + '/upload',
+            processData: false,
+            contentType: false,
+            data: file,
+            success: function (response) {
+                let id = response.data.id;
+
+                $.ajax({
+                    method: 'POST',
+                    url: baseApiUrl + '/song/fileId/' + id,
+                    dataType: 'JSON',
+                    headers: {
+                        'Accept': 'Application/Json',
+                        'Content-Type': 'Application/Json'
+                    },
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                        $('#model_song_new').modal('hide');
+                        loadSongs();
+                    },
+                    error: function (err) {
+                        alert("Unable to add song");
+                    }
+                });
+            },
+            error: function (err) {
+                alert("Unable to add song");
+            }
+        });
+
+        return false;
+    }
+
+    function loadSongs() {
+
+        $('#songs_table').html('');
+        $.ajax({
+            url: baseApiUrl + '/songs',
+            method: 'GET'
+        }).success(res => {
+            songList = res.data;
+            res.data.forEach(song => {
+
+                let artists = song.user.map(d => d.name).join(', ');
+                $('#songs_table').append(`
+                    <tr>
+                        <td>${song.name}</td>
+                        <td>${song.genre}</td>
+                        <td>${artists}</td>
+                        <td>
+                            <a href="/assets/uploads/${song.songFile.path}" target="_blank" download>Download</a> &nbsp;&nbsp;
+                            <a href="#" onclick="deleteSong(${song.id})" style="color: red">Delete</a>
+                        </td>
+                    </tr>
+                `);
+
+            });
+            renderSongData();
+        })
+    }
+
+    function createPlaylist() {
+
+        let data = {
+            name: null,
+            createdBy: user.name,
+            songSet: []
+        };
+
+        $('#form_playlist_create').serializeArray().forEach(obj => {
+            if ( obj.name === 'songSet' ) {
+                data.songSet.push({ id: parseInt(obj.value) })
+            } else {
+                data[obj.name] = obj.value;
+            }
+        });
+
+        $.ajax({
+            method: 'post',
+            url: baseApiUrl + '/playlist',
+            dataType: 'JSON',
+            headers: {
+                'Accept': 'Application/Json',
+                'Content-Type': 'Application/Json'
+            },
+            data: JSON.stringify(data)
+        }).success(r => {
+            $('#model_playlist_new').modal('hide');
+            loadPlaylists();
+        }).error(e => {
+            alert('unable to create playlist.');
+        });
+
+        return false;
+    }
+
+    function loadPlaylists() {
+
+        $('#playlist_content').html('');
+
+        $.ajax({
+            method: 'GET',
+            url: baseApiUrl + '/playlists'
+        }).success(r => {
+
+            r.data.forEach(obj => {
+                let songList = '';
+
+                obj.songSet.forEach(song => {
+                    songList += `<li><a href="/assets/uploads/${song.songFile.path}" target="_blank" download>${song.name}</a></li>`;
+                });
+                songList = `<ol>${songList}</ol>`;
+
+                let temp = `
+                    <div class="row bg-light p-2 m-1">
+                        <div class="col-sm-10 text-dark font-weight-bold">
+                            ${obj.name}
+                            <div class="mt-2 font-weight-normal">
+                                ${songList}
+                            </div>
+
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="#" style="color: red" onclick="deletePlaylist(${obj.id})">Delete</a>
+                        </div>
+                    </div>
+                `;
+
+                $('#playlist_content').append(temp);
+
+            });
+
+        })
+
+    }
+
+
+    function loadAlbum() {
+
+        $('#album_content').html('');
+
+        $.ajax({
+            url: baseApiUrl + '/albums',
+            method: 'get'
+        }).success(r => {
+
+            r.data.forEach(obj => {
+
+                $('#album_content').append(`
+                    <div class="col-sm-3 bg-light m-2">
+                        <div class="p-4">
+                            <img src="/assets/images/album.png" class="w-100">
+                        </div>
+                        <div class="text-dark pb-2 font-weight-bold text-center">
+                            ${obj.name}
+                        </div>
+                        <div class="text-center">
+                            <a href="#" onclick="deleteAlbum(${obj.id})" style="color: red">Delete</a>
+                        </div>
+                    </div>
+                `);
+
+            });
+
+            $('#album_content').append(`
+                <div class="col-sm-3 bg-light m-2" style="cursor: pointer" onclick="$('#model_album_new').modal('show')">
+                    <div class="text-dark font-weight-bold text-center py-5 my-3">
+                        + Add Album
+                    </div>
+                </div>
+            `);
+
+        });
+
+    }
+
+    function createAlbum() {
+
+        let data = {
+            name: null,
+            releasedOn: null,
+            songs: []
+        };
+
+        $('#form_album_create').serializeArray().forEach(obj => {
+            if (obj.name === 'songs') {
+                data.songs.push({id: obj.value});
+            } else {
+                data[obj.name] = obj.value;
+            }
+        });
+
+        $.ajax({
+            method: 'post',
+            url: baseApiUrl + '/album',
+            dataType: 'JSON',
+            headers: {
+                'Accept': 'Application/Json',
+                'Content-Type': 'Application/Json'
+            },
+            data: JSON.stringify(data)
+        }).success(r => {
+            $('#model_album_new').modal('hide');
+            loadAlbum();
+        }).error(e => {
+            alert('unable to create album.');
+        });
+
+        return false;
+
+    }
+
+    function deletePlaylist(id) {
+        $.ajax({
+            method: 'DELETE',
+            url: baseApiUrl + '/playlist/playlist_id/' + id
+        }).success(r => {
+            loadPlaylists();
+        })
+    }
+
+    function renderUserData() {
+        let userOptionsList = null;
+
+        userList.forEach(obj => {
+
+            if (obj.role === 'artist') {
+                userOptionsList += `<option value="${obj.id}">${obj.name}</option>`;
+            }
+
+        });
+
+        $('#artistsOptions').html(userOptionsList);
+    }
+
+    function renderSongData() {
+        let songOptionsList = null;
+
+        songList.forEach(obj => {
+            songOptionsList += `<option value="${obj.id}">${obj.name}</option>`;
+        });
+
+        $('#songsOptions').html(songOptionsList);
+        $('#songsOptions2').html(songOptionsList);
+    }
+
+    function deleteUser(id) {
+        $.ajax({
+            url: baseApiUrl + `/users/${id}`,
+            method: "DELETE"
+        }).success(r => {
+            loadUsers();
+        })
+    }
+
+    function deleteAlbum(id) {
+        $.ajax({
+            url: baseApiUrl + `/album/albumId/${id}`,
+            method: "DELETE"
+        }).success(r => {
+            loadAlbum();
+        });
+    }
+
+    function deleteSong(id) {
+        $.ajax({
+            url: baseApiUrl + `/songs/${id}`,
+            method: "DELETE"
+        }).success(r => {
+            loadSongs();
+        });
+    }
+
+
+    requireLogin();
+
+    if ( getUserInfo().role === 'user') {
+        $('a[data-tab="user_section"]').hide();
+        $('a[data-tab="artist_section"]').hide();
+        $('a[data-tab="album_section"]').hide();
+        $('a[data-tab="song_section"]').hide();
+        $('a[data-tab="playlist_section"]').click();
+
+    } else {
+        loadUsers();
+        loadSongs();
+        loadAlbum();
+    }
+
+
+    loadPlaylists();
+
+    $('#btn_new_user').click(() => {
+        $('#model_user_new').modal('show')
+    });
+
+    $('#btn_new_artist').click(() => {
+        $('#model_artist_new').modal('show')
+    });
+
+    $('#btn_new_song').click(() => {
+        $('#model_song_new').modal('show')
+    });
+
+    $('#btn_new_playlist').click(() => {
+        $('#model_playlist_new').modal('show')
+    });
+
+</script>
+
+</body>
+</html>
+
