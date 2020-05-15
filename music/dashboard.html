@@ -409,6 +409,7 @@
 
     function loadUsers() {
         $('#users_table').html('');
+        $('#artists_table').html('');
         $.ajax({
             url: baseApiUrl + '/users',
             method: 'GET'
@@ -468,7 +469,6 @@
             alert("Unable to create user. Please check given details are correct!");
         }).complete(()=> {
             $('#model_user_new').modal('hide');
-            $('#form_user_create').reset();
         });
 
         return false;
@@ -498,7 +498,6 @@
             alert("Unable to create user. Please check given details are correct!");
         }).complete(()=> {
             $('#model_artist_new').modal('hide');
-            $('#form_artist_create').reset();
         });
 
         return false;
